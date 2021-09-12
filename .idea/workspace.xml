@@ -1,50 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de7fff77-2d50-4b3e-9824-299b0ddef01f" name="Default Changelist" comment="[] - MEVN stack init" />
-    <list id="39bf902f-ff6c-453d-8f85-c54f92a82cba" name="mevn-tutorial" comment="[mevn-tutorial] MEV Stack init">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sandbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/client/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/db/connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/db/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mevn-tutorial/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="de7fff77-2d50-4b3e-9824-299b0ddef01f" name="Default Changelist" comment="[] - MEVN stack init">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="39bf902f-ff6c-453d-8f85-c54f92a82cba" name="mevn-tutorial" comment="[mevn-tutorial] MEV Stack init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +13,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1kEpFzOlQONB2YS0Z6Ax1U9ob87" />
   <component name="ProjectViewState">
@@ -64,15 +33,38 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.4" />
+    <property name="app.teamhub.trackedBranches" value="1mvrmrq/master" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.lint (1)">
+  <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nuxt-ts-composition-api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-vue-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="lint (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/mevn-tutorial/client/package.json" />
       <command value="run" />
@@ -103,22 +95,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/mevn-tutorial/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint (1)" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.serve" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -131,8 +114,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605275505756</updated>
-      <workItem from="1605275506868" duration="4377000" />
+      <workItem from="1605275506868" duration="4501000" />
+      <workItem from="1622728293165" duration="1757000" />
+      <workItem from="1631430917969" duration="657000" />
     </task>
+    <task id="LOCAL-00001" summary="[mevn-tutorial] MEV Stack init">
+      <created>1605304195952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605304195952</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,31 +135,5 @@
     <MESSAGE value="MEVN stack init" />
     <MESSAGE value="[mevn-tutorial] MEV Stack init" />
     <option name="LAST_COMMIT_MESSAGE" value="[mevn-tutorial] MEV Stack init" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1335" y="107" key="CommitChangelistDialog2" timestamp="1605304046105">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1335" y="107" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605304046105" />
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1605304046161">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605304046161" />
-    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1605304046160">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605304046160" />
-    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1605304046160">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605304046160" />
-    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1605304046161">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605304046161" />
-    <state x="-1130" y="389" key="VCS.EditChangelistDialog" timestamp="1605302580422">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1130" y="389" key="VCS.EditChangelistDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605302580422" />
   </component>
 </project>
