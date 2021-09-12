@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de7fff77-2d50-4b3e-9824-299b0ddef01f" name="Default Changelist" comment="[] - MEVN stack init">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/components/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/layouts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/layouts/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/middleware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/nuxt.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/pages/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/plugins/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/store/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <list id="39bf902f-ff6c-453d-8f85-c54f92a82cba" name="mevn-tutorial" comment="[mevn-tutorial] MEV Stack init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="39bf902f-ff6c-453d-8f85-c54f92a82cba" name="mevn-tutorial" comment="[mevn-tutorial] MEV Stack init" />
+    <list id="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" name="no-commit" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +38,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="3" end1="45" start2="3" end2="24" changelist="39bf902f-ff6c-453d-8f85-c54f92a82cba" />
+        <range start1="47" end1="47" start2="26" end2="30" changelist="39bf902f-ff6c-453d-8f85-c54f92a82cba" />
+        <range start1="56" end1="56" start2="39" end2="40" changelist="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" />
+        <range start1="65" end1="65" start2="49" end2="50" changelist="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" />
+        <range start1="66" end1="68" start2="51" end2="53" changelist="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" />
+        <range start1="72" end1="72" start2="57" end2="58" changelist="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" />
+        <range start1="129" end1="129" start2="115" end2="116" changelist="39bf902f-ff6c-453d-8f85-c54f92a82cba" />
+        <range start1="134" end1="134" start2="121" end2="122" changelist="39bf902f-ff6c-453d-8f85-c54f92a82cba" />
+        <range start1="139" end1="139" start2="127" end2="138" changelist="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" />
+        <range start1="141" end1="141" start2="140" end2="143" changelist="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" />
+        <range start1="144" end1="170" start2="146" end2="146" changelist="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1kEpFzOlQONB2YS0Z6Ax1U9ob87" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -32,16 +66,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="app.teamhub.trackedBranches" value="1mvrmrq/master" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.11.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.dev (1)">
@@ -110,20 +143,13 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="de7fff77-2d50-4b3e-9824-299b0ddef01f" name="Default Changelist" comment="" />
       <changelist id="39bf902f-ff6c-453d-8f85-c54f92a82cba" name="mevn-tutorial" comment="" />
+      <changelist id="79b6e8ad-3bd2-4dfd-9173-7b8fcf0373dc" name="no-commit" comment="" />
       <created>1605275505756</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605275505756</updated>
-      <workItem from="1605275506868" duration="4501000" />
-      <workItem from="1622728293165" duration="1757000" />
-      <workItem from="1631430917969" duration="657000" />
-    </task>
-    <task id="LOCAL-00001" summary="[mevn-tutorial] MEV Stack init">
-      <created>1605304195952</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605304195952</updated>
+      <workItem from="1605275506868" duration="4377000" />
+      <workItem from="1615924108312" duration="1720000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -131,7 +157,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/artikels/building-a-lyric-blog-with-nuxt-js-and-strapi/frontend" />
+    </ignored-roots>
     <MESSAGE value="MEVN stack init" />
     <MESSAGE value="[mevn-tutorial] MEV Stack init" />
     <option name="LAST_COMMIT_MESSAGE" value="[mevn-tutorial] MEV Stack init" />
