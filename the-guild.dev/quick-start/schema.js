@@ -15,7 +15,13 @@ export const schema = makeExecutableSchema( {
   }
 } )
 
-const yoga = createYoga({schema})
+const yoga = createYoga({schema, graphiql: {
+  defaultQuery: /* GraphQL */ `
+    query {
+      hello
+    }
+  `
+  }})
 const server = createServer(yoga)
 
 server.listen(4000, ()=>{
