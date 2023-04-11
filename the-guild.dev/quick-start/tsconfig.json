@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "module": "esnext",
+    "sourceMap": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "dist", "test"],
+  "ts-node": {
+    "esm": true
+  }
+}
