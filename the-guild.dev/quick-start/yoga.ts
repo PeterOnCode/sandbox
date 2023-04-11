@@ -1,29 +1,28 @@
 import { createSchema, createYoga } from 'graphql-yoga'
-import { createContext, GraphQLContext } from './context.js'
+import { fetch } from '@whatwg-node/fetch'
 
 export const yoga = createYoga(
     {
       graphiql : {
         defaultQuery : /*GraphQL*/`
           query {
-            someNumber
-          }`,
+            greeting
+          }`
       },
       schema : createSchema( {
         typeDefs : /* GraphQL */ `
           type Query {
-            someNumber: Int!
+            greeting: String!
           }
         `,
         resolvers : {
           Query : {
-            someNumber( _, _args, context:GraphQLContext ) {
-              return  context.someNumber2
-            },
-          },
-        },
-      } ),
-      context: createContext,
-      logging : true,
-      maskedErrors : true,
+            greeting : async () => {
+              return await fetch( 'http://localhost:9876/greetings' ).then(
+                res => res.text()
+              )
+            }
+          }
+        }
+      } )
     } )
