@@ -7,10 +7,9 @@ export const yoga = createYoga(
         title: 'Error Masking',
         defaultQuery : /*GraphQL*/`
           {
-            user(byId: 6) {
-              login
-            }
+            user(byId:  6)
           }`
       },
-      schema : createAppSchema
+      schema : createAppSchema,
+      // maskedErrors: false
     } )

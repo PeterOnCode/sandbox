@@ -25,7 +25,7 @@ const resolvers = {
         throw new GraphQLError( `User with id '${args.byId}' not found`, {
           extensions : {
             http: {
-              status: 400,
+              status: 401,
               headers: {
                 'x-custom-header': 'some-value'
               }
