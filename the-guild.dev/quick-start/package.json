@@ -11,6 +11,7 @@
     "dev": "nodemon ./server.ts"
   },
   "dependencies": {
+    "@escape.tech/graphql-armor-block-field-suggestions": "^1.4.1",
     "@graphql-yoga/plugin-disable-introspection": "^0.7.0",
     "@whatwg-node/fetch": "^0.8.4",
     "graphql": "^16.6.0",

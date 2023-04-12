@@ -9,7 +9,7 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@envelop/core@^3.0.4":
+"@envelop/core@^3.0.0", "@envelop/core@^3.0.4":
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/@envelop/core/-/core-3.0.6.tgz#e55c3564d05d648b0356a1c465aa90b0c51f485d"
   integrity sha512-06t1xCPXq6QFN7W1JUEf68aCwYN0OUDNAIoJe7bAqhaoa2vn7NCcuX1VHkJ/OWpmElUgCsRO6RiBbIru1in0Ig==
@@ -33,6 +33,15 @@
     lru-cache "^6.0.0"
     sha1-es "^1.8.2"
     tslib "^2.5.0"
+
+"@escape.tech/graphql-armor-block-field-suggestions@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@escape.tech/graphql-armor-block-field-suggestions/-/graphql-armor-block-field-suggestions-1.4.1.tgz#0b0120c98ca87c26f17de4a8b5f68826f695e339"
+  integrity sha512-lHtOHhWCNql5R7UZRXjZVepxaBLJdVMnkDomRzot1tbQYQ7HowGgM91HEQGVXeqxWVrNzjfpQD+f71ChPL/Iiw==
+  dependencies:
+    graphql "^16.0.0"
+  optionalDependencies:
+    "@envelop/core" "^3.0.0"
 
 "@graphql-tools/executor@^0.0.15":
   version "0.0.15"
@@ -393,7 +402,7 @@ graphql-yoga@^3.8.0:
     lru-cache "^7.14.1"
     tslib "^2.3.1"
 
-graphql@^16.6.0:
+graphql@^16.0.0, graphql@^16.6.0:
   version "16.6.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
   integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
