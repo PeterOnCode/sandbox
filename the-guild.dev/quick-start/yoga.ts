@@ -1,23 +1,11 @@
-import { createYoga, maskError } from 'graphql-yoga'
+import { createYoga } from 'graphql-yoga'
+import { useDisableIntrospection } from '@graphql-yoga/plugin-disable-introspection'
+
 import { createAppSchema } from './schema.js'
 
 export const yoga = createYoga(
     {
-      graphiql : {
-        title : 'Error Masking',
-        defaultQuery : /*GraphQL*/`
-          {
-            user(byId:  6)
-          }`
-      },
-      schema : createAppSchema,
-      maskedErrors : {
-        maskError( error, message, isDev ) {
-          if ( error?.extensions?.code === 'DOWNSTREAM_SERVICE_ERROR' ) {
-            return error
-          }
-
-          return maskError( error, message, isDev )
-        }
-      }
+      graphiql : false,
+      plugins: [useDisableIntrospection()],
+      schema : createAppSchema
     } )

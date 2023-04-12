@@ -88,6 +88,11 @@
   dependencies:
     tslib "^2.3.1"
 
+"@graphql-yoga/plugin-disable-introspection@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@graphql-yoga/plugin-disable-introspection/-/plugin-disable-introspection-0.7.0.tgz#30d56497a183096ff5dd9debb2e7d97ad576a931"
+  integrity sha512-C/05pS91mOrOS7B+du22hOlMyqDIm6r8V3hCzt+uRXC+Ft9FZ7dwfh8avlJid3mJYK6bD4JSgglA15834M5hJQ==
+
 "@graphql-yoga/subscription@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@graphql-yoga/subscription/-/subscription-3.1.0.tgz#4a0bb0b9db2602d02c68f9828603e1e40329140b"
