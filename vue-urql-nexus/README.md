@@ -1,5 +1,7 @@
 ## Type Safe GraphQL with Vue 3
 
+- <https://github.com/lmiller1990/vue-3-urql-example>
+
 This is an article walking through constructing a stack to do type safe GraphQL with Vue 3. It uses:
 
 - [graphql](https://graphql.org/) (graphql spec)
