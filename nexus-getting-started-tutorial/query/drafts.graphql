@@ -1,0 +1,8 @@
+query MyQuery {
+  drafts {
+    id
+    title
+    body
+    published
+  }
+}
