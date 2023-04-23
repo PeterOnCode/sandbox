@@ -1,0 +1,27 @@
+query MyQuery {
+  user(id: "1") {
+    id
+    firstName
+    lastName
+    fullName
+  }
+  post(id: "4") {
+    id
+    title
+    content
+  }
+}
+
+query q2 {
+  user(id: "6") {
+    id
+    fullName
+    posts {
+      author {
+        fullName
+      }
+      title
+      content
+    }
+  }
+}
