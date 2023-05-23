@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #219EBC;
   font-family: sans-serif;
 }
 
@@ -18,4 +18,8 @@ body {
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
+}
+
+a {
+  color: #FFB703;
 }
