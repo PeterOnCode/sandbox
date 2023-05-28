@@ -5,7 +5,12 @@
 ---
 
 ```shell
-npm i axios cors keycloak-js pinia pinia-plugin-persistedstate vue-router
+npm create vue@3
+npm i \
+ ky \
+ cors \
+ keycloak-js \
+ pinia-plugin-persistedstate
 ```
 
 ---
