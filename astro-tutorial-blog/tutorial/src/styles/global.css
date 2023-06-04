@@ -11,6 +11,15 @@ body {
   line-height: 1.5;
 }
 
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -55,10 +64,6 @@ a:focus {
 }
 
 @media screen and (min-width: 636px) {
-  body {
-    background-color: #d54949;
-  }
-
   .nav-links {
     margin-left: 5em;
     display: block;

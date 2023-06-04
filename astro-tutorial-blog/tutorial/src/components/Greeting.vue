@@ -9,8 +9,8 @@ const randomMessage = () => props.messages[(Math.floor(Math.random() *
 const greeting = ref(props.messages[0])
 // console.log(props.messages[0])
 const setGreeting = (gr) => {
-  console.log('setGreeting ', 'fired!')
-  greeting.value = gr}
+  greeting.value = gr
+}
 </script>
 
 <template>
