@@ -1,21 +1,34 @@
 <script setup>
-import { ref } from 'vue'
+
+import { onMounted, ref } from 'vue'
 import '@vuepic/vue-datepicker/dist/main.css'
 import PdDatepicker2 from '@/components/pd-datepicker2.vue'
 
 // import { VDataTable } from 'vuetify/labs/VDataTable'
 
 const date = ref( '2000-01-01' )
+const input = ref()
 
+onMounted( () => {
+  console.log( 'mounted1' )
+  console.log( 'date', date.value )
+  console.log( '$ref', input.value )
+} )
 </script>
 <script>
+
 export default {
-  compatConfig : {
-    MODE : 3
-    // COMPONENT_V_MODEL : false
+  name : 'AboutView',
+
+  mounted () {
+    console.log( 'mounted2' )
+    console.log( 'date', this.date )
+    console.log( '$ref', this.$refs.input )
   }
 }
+
 </script>
+
 <template>
   <div class="about">
     <h1>This is an about page</h1>
@@ -43,6 +56,9 @@ export default {
 
         <!--        <v-data-table />-->
 
+      </li>
+      <li>
+        <input ref="input">
       </li>
     </ul>
   </div>
