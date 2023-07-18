@@ -82,7 +82,7 @@ export default {
                alt="Calendar Event"
                class="icon">
           <input
-            :value="formattedDateString"
+            v-model="formattedDateString"
 
             :readonly="true"
             class="input-field"

@@ -13,16 +13,19 @@
     <!--      title="Dátumtól" />-->
     <PdDatepickerInput v-model="selectedDate"
                        label="Dátumtól" />
+<!--    <PdVue3Datepicker v-model="selectedDate" />-->
     <hr>
   </div>
 </template>
 <script>
 import 'v-calendar/style.css'
 import PdDatepickerInput from '@/components/pd-datepicker-input.vue'
+// import PdVue3Datepicker from '@/components/pd-vue3-datepicker.vue'
 
 export default {
   name : 'TestView',
   components : {
+    // PdVue3Datepicker
     PdDatepickerInput
     // Calendar
   },
