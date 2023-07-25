@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../dist/src/index.js"
+          type="module"></script>
+</head>
+<body>
+<div id="app"></div>
+
+<base-button text="Hello Bello, Bella"></base-button>
+<script type="module">
+  import { html, render } from 'lit'
+  import '../dist/src/index.js'
+
+  const title = 'My app'
+
+  const template = html`
+    <base-button text="${ title }"></base-button>
+  `
+
+  render(
+    template,
+    document.querySelector('#app')
+    // document.body
+  )
+</script>
+</body>
+</html>

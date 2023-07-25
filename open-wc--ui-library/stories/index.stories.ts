@@ -1,5 +1,5 @@
 import { html, TemplateResult } from 'lit';
-import '../src/open-wc--ui-library.js';
+import '../src/ui-library.ts';
 
 export default {
   title: 'OpenWcUiLibrary',
